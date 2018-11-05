@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "artifacts", "artifacts", "{B7CE88E0-64D7-47C1-89D0-C0D87CFFD202}"
+	ProjectSection(SolutionItems) = preProject
+		artifacts\OperationsConfiguration.txt = artifacts\OperationsConfiguration.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E5B16DB-F660-4286-9C99-C4369AC17755}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "040 - Database", "040 - Database", "{CDC7492B-E21F-4741-9594-8278CE53E444}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "000 - Foundation", "000 - Foundation", "{4F95EF1E-7A94-4D81-A1A8-27540DD2DAB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "030 - Processes", "030 - Processes", "{2662E9B9-5774-489B-BC60-6FEC2227D4C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "050 - Tests", "050 - Tests", "{F442C408-D8D7-4B15-95FC-434A13B3FBFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "010 - WebServices", "010 - WebServices", "{021905F0-AA36-4AF0-B4F7-C2A48E571D5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "020 - UIs", "020 - UIs", "{2C0A1049-2B70-4332-808D-607D6E46734C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{651D6278-9285-4CA5-878B-04E261E650BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoadmapConnectionGroups.Api", "src\WebServices\RoadmapConnectionGroups.Api\RoadmapConnectionGroups.Api.csproj", "{1F1C0B57-B2FA-4CEE-A843-FC6E3B9412CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandboxCustomers.Api", "src\WebServices\SandboxCustomers.Api\SandboxCustomers.Api.csproj", "{A548822E-DBE6-4F90-852A-FA89FD403CAA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roadmap.WebUI", "src\UIs\Roadmap.WebUI\Roadmap.WebUI.csproj", "{0C4C6BBC-F399-4E77-A884-11C0458A037B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F1C0B57-B2FA-4CEE-A843-FC6E3B9412CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1C0B57-B2FA-4CEE-A843-FC6E3B9412CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1C0B57-B2FA-4CEE-A843-FC6E3B9412CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1C0B57-B2FA-4CEE-A843-FC6E3B9412CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A548822E-DBE6-4F90-852A-FA89FD403CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A548822E-DBE6-4F90-852A-FA89FD403CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A548822E-DBE6-4F90-852A-FA89FD403CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A548822E-DBE6-4F90-852A-FA89FD403CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C4C6BBC-F399-4E77-A884-11C0458A037B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4C6BBC-F399-4E77-A884-11C0458A037B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4C6BBC-F399-4E77-A884-11C0458A037B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4C6BBC-F399-4E77-A884-11C0458A037B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDC7492B-E21F-4741-9594-8278CE53E444} = {0E5B16DB-F660-4286-9C99-C4369AC17755}
+		{4F95EF1E-7A94-4D81-A1A8-27540DD2DAB5} = {0E5B16DB-F660-4286-9C99-C4369AC17755}
+		{2662E9B9-5774-489B-BC60-6FEC2227D4C0} = {0E5B16DB-F660-4286-9C99-C4369AC17755}
+		{F442C408-D8D7-4B15-95FC-434A13B3FBFE} = {0E5B16DB-F660-4286-9C99-C4369AC17755}
+		{021905F0-AA36-4AF0-B4F7-C2A48E571D5B} = {0E5B16DB-F660-4286-9C99-C4369AC17755}
+		{2C0A1049-2B70-4332-808D-607D6E46734C} = {0E5B16DB-F660-4286-9C99-C4369AC17755}
+		{651D6278-9285-4CA5-878B-04E261E650BE} = {B7CE88E0-64D7-47C1-89D0-C0D87CFFD202}
+		{1F1C0B57-B2FA-4CEE-A843-FC6E3B9412CB} = {021905F0-AA36-4AF0-B4F7-C2A48E571D5B}
+		{A548822E-DBE6-4F90-852A-FA89FD403CAA} = {021905F0-AA36-4AF0-B4F7-C2A48E571D5B}
+		{0C4C6BBC-F399-4E77-A884-11C0458A037B} = {2C0A1049-2B70-4332-808D-607D6E46734C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31D754CD-AE53-4EF3-86CD-3304CFAFF95B}
+	EndGlobalSection
+EndGlobal
