@@ -1,0 +1,86 @@
+OPERATIONS CONFIGURATION:
+
+====================================================================================================
+UI:
+
+UIT/DEV:
+Base URL = https://
+IIS AppPool User = 
+
+SIT/TEST:
+Base URL = https://
+IIS AppPool User = 
+
+PROD:
+Base URL = https://
+IIS AppPool User = 
+
+
+
+====================================================================================================
+WEB SERVICES:
+
+UIT/DEV:
+Base URL = https://
+IIS AppPool User = 
+
+SIT/TEST:
+Base URL = https://
+IIS AppPool User = 
+
+PROD:
+Base URL = https://
+IIS AppPool User = 
+
+
+====================================================================================================
+DATABASE:
+
+UIT/DEV: 
+Server = DbTransDev
+Database = 
+Base/Special Permissions = 
+
+
+SIT/TEST:
+Server = DbTransTest
+Database = 
+Permissions = 
+
+
+PROD:
+Server = DbTransProd
+Database = 
+Base/Special Permissions = 
+
+
+====================================================================================================
+UC4/AUTOMIC:
+
+Job Name = 
+
+UIT/DEV:
+Path = 
+App Account = 
+EXE or URL = 
+Parameters = 
+SCHEDULE = daily (7 days a week), once at 6 am and 11am if not running already
+ 
+SIT/TEST:
+Path = 
+App Account = 
+EXE or URL = 
+Parameters = 
+SCHEDULE = daily (7 days a week), once at 6 am and 11am if not running already
+
+PROD:
+Path = 
+App Account = 
+EXE or URL = 
+Parameters = 
+SCHEDULE = daily (7 days a week), once at 6 am and 11am if not running already
+
+
+=============
+Job Name = 
+
